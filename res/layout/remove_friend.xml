@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created By: Godfrey Oguike Copyright 2014
+remove friends layout -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvFriendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        android:text="Friend Name: " />
+
+    <EditText
+        android:id="@+id/etFriendName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvFriendName"
+        android:layout_alignBottom="@+id/tvFriendName"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/tvFriendName"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bRemoveFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etFriendName1"
+        android:layout_marginTop="22dp"
+        android:text="Delete" />
+
+</RelativeLayout>
